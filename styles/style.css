@@ -8,6 +8,7 @@
 
 body {
   font-family: "Work Sans", sans-serif;
+  max-width: 1920px;
 }
 
 #hero {
@@ -68,7 +69,7 @@ body {
 
 .favorite-section {
   width: 1320px;
-  margin: 167px 300px 179px; 
+  margin: 167px 300px 179px;
   text-align: center;
 }
 
@@ -89,7 +90,7 @@ body {
   margin-bottom: 48px;
 }
 
-.items{
+.items {
   display: flex;
   gap: 24px;
   margin-bottom: 64px;
@@ -127,4 +128,100 @@ body {
   font-weight: 500;
   line-height: 28px;
   opacity: 0.7;
+}
+
+.about-us {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  color: #101010; 
+  margin-bottom: 200px;
+}
+.about-us-banner > img {
+  width: 100%; 
+}
+
+.about-us-details {
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+}
+
+.about-us-details .title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  margin-bottom: 24px;
+}
+
+.about-us-details .sub-title {
+  margin-bottom: 48px;
+  opacity: 0.6;
+}
+
+.about-us-details .follow-us-on {
+  border-top: 1px solid rgba(16, 16, 16, 0.2);
+  border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+}
+
+.about-us-details .follow-us-on p {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  opacity: 0.7;
+  margin: 30px 0;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 32px;
+}
+
+.social {
+  background-image: url("../assets/social-bg.png"),
+    linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.9));
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 176px 0 206px;
+}
+
+.social .header {
+  width: 1320px;
+}
+
+.social .header .sub-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #101010;
+  opacity: 0.6;
+  margin: 24px 0 48px 0;
+}
+
+.social .title {
+  color: #101010;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.social .follow-us-on {
+  opacity: 0.6;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  padding: 30xp 0;
+  border-top: 1px solid rgba(16, 16, 16, 0.3);
+  border-bottom: 1px solid rgba(16, 16, 16, 0.3);
+  padding: 30px 0;
+}
+
+.header-parent {
+  display: flex;
+  justify-content: center;
 }
